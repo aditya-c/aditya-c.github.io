@@ -1,6 +1,229 @@
-<html>
-<title>Hello</title>
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>Responsive Portfolio Template for Developers</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Website Landing Page for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"
+/>
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style>
+
+.modal-dialog {
+  width: 98%;
+  height: 92%;
+  padding: 0;
+}
+
+.modal-content {
+  height: 99%;
+}
+
+</style>
+</head>
+
 <body>
-Hello,world! Currently in progress!! new_branch
+
+<!-- *** Project Modals *** -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    <!-- ******HEADER****** -->
+    <header class="header">
+        <div class="container">
+            <img class="profile-image img-circle img-responsive pull-left" src="assets/images/me.jpg" alt="Ashutosh Parekh" style="height:175px;width=175px" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Ashutosh Parekh</h1>
+                <h2 class="desc">Computer and Software Development Enthusiast</h2>
+
+                <ul class="social list-inline">
+
+                    <li><a href="http://www.linkedin/in/ashuparekh"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="http://www.github.com/ashuparekh"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://twitter.com/ashutosh_parekh"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.quora.com/profile/Ashutosh-Parekh-1"><i class="fa fa-quora"></i></a></li>
+
+                </ul>
+            </div><!--//profile-->
+          <!--  <a class="btn btn-warning pull-right" href="#" target="_blank"><i class="fa fa-file-text"></i>Download Resume</a> -->
+        </div><!--//container-->
+    </header><!--//header-->
+
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                              <p>Hi! I am interested in converting ideas to code. I dabble with various technologies to build web applications and software solutions. I have experience in competitive programming and web and app development. Machine Learning and Data Science are my new found love!</p>
+                              <p>Apart from these, I like listening to Metal music \m/. Also, I love watching football and am a fan of Manchester United. Besides, I sometimes take up photography as a hobby.</p>
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Technology Analyst - <span class="place"><a href="http://www.jpmorgan.com" target="_blank">JPMorgan Chase & Co.</a></span> <span class="year">(July 2016 - Present)</span></h3>
+                                <p>Working in the Risk and Finance Technology (RFT) Line of Business. Experience with working in Java, AngularJS in an Agile manner.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Developer Intern - <span class="place"><a href="http://www.quantiphi.com" target="_blank">Quantiphi Analytics Pvt. Ltd.</a></span> <span class="year">(June 2015 - July 2015)</span></h3>
+                                <p>Data Management Tools in PHP for Quality Assurance Teams. Also worked on a News Aggregator Engine.</p>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+            </div><!--//primary-->
+
+
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+              <aside class="education aside section">
+                  <div class="section-inner">
+                      <h2 class="heading">Education</h2>
+                      <div class="content">
+                          <div class="item">
+                              <a href="http://www.djsce.ac.in" target="_blank"><h3 class="title"><i class="fa fa-graduation-cap"></i> DJ Sanghvi College of Engineering</h3></a>
+                              <h4 class="university"> B.E. in Information Technology  <span class="year"> (2012-2016)</span></h4>
+                          </div><!--//item-->
+                          <div class="item">
+                          <a href="https://www.somaiya.edu/kjssc" target="_blank">    <h3 class="title"><i class="fa fa-graduation-cap"></i> KJ Somaiya College of Sci. & Comm.</h3></a>
+                              <h4 class="university"> Higher Secondary Certificate <span class="year"> (2010-2012)</span></h4>
+                          </div><!--//item-->
+                      </div><!--//content-->
+                  </div><!--//section-inner-->
+              </aside><!--//section-->
+
+
+                <aside class="info aside section">
+                  <div class="section-inner">
+                     <h2 class="heading">Publications</h2>
+                        <div class="content">
+                        Ashutosh Parekh, Nilay Shah, Lekhraj Varshney, Neepa Shah, Mitchell D'silva, <b>"Heuristic Generation of Dynamic Quiz Game using Linked Data and Gamification"</b>, IEEE International Conference on Inventive Computation Technologies (ICICT) 2016.
+                        <br><br>
+                      <center>  <a href="https://drive.google.com/open?id=0B3QqXXBcTkaMNUpWOV9Lb2RXMG8" target="_blank" class="btn btn-xs btn-warning">View</a></center>
+                          </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//aside-->
+
+                <aside class="info aside section">
+                  <div class="section-inner">
+                     <h2 class="heading">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i>Mumbai, India</li>
+                                <li><i class="fa fa-envelope-o"></i><a href="mailto:parekh.ashutosh@gmail.com">parekh.ashutosh@gmail.com</a></li>
+                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="http://ashuparekh.github.io">http://ashuparekh.github.io</a></li>
+                            </ul>
+                          </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//aside-->
+
+                <aside class="list music aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Favorite Music Artists</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-headphones"></i>Iron Maiden</li>
+                                <li><i class="fa fa-headphones"></i>Metallica</li>
+                                <li><i class="fa fa-headphones"></i>Opeth</li>
+                                <li><i class="fa fa-headphones"></i>Pink Floyd</li>
+                                <li><i class="fa fa-headphones"></i>And many more...</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="list conferences aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Conferences</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-calendar"></i> <a href="https://www.iroglobal.com/events/icict.php" target="_blank">IEEE ICICT 2016</a> (Coimbatore)</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+
+
+            </div><!--//secondary-->
+        </div><!--//row-->
+    </div><!--//masonry-->
+
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
