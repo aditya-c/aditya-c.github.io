@@ -54,4 +54,10 @@ jQuery(document).ready(function($) {
         }
     );
 
+    /* scroll to id functionality */
+    $(".scrollToID").click(function(event) {
+        event.preventDefault();
+        $('html,body').animate( { scrollTop:$(this.hash).offset().top } , 500);
+    } );
+
 });
